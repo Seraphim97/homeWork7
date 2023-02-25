@@ -1,17 +1,10 @@
 public class Car extends Transport {
-    int vin;
-    int number;
+    private int vin;
+    private int number;
     @Override
     public void move() {
         System.out.println("car is moving");
     }
-
-
-
-
-
-
-
 
     public void setVin(int vin) {
         this.vin = vin;

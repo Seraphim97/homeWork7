@@ -1,32 +1,7 @@
 public class Transport {
     private String name;
     private int seats;
-    private int sedan;
-    private int pickup;
 
-
-    public void setSedan(int sedan) {
-        this.sedan = sedan;
-    }
-
-    public void setPickup(int pickup) {
-        this.pickup = pickup;
-    }
-
-    public int getSedan() {
-        System.out.println("sedan");
-        return sedan;
-    }
-
-    public int getPickup() {
-        System.out.println("pickup");
-        return pickup;
-    }
-
-    public void transportType() {
-
-
-    }
     public void move(){
         System.out.println("transport is moving");
     }
