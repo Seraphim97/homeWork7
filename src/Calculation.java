@@ -15,8 +15,9 @@ public class Calculation {
 
 
         //3.2
-        int[] myArrayTwo = {1,2,3,4,5,6,7,8};
+        int[] myArrayTwo = new int[10];
         for(i = 0; i < myArrayTwo.length; i++) {
+            myArrayTwo[i] = i + 1;
             System.out.println(myArrayTwo[i]);
 
         }
