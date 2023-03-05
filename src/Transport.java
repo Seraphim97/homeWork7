@@ -15,11 +15,14 @@ public class Transport {
 
 
     public void setSeats(int seats) {
-        if ( seats > 20 );
+
+        if ( seats > 20 ) {
+            this.seats = seats;
+        }
         else {
             System.out.println("20 seats MAX");
         }
-        this.seats = seats;
+
     }
 
     public int getSeats() {
