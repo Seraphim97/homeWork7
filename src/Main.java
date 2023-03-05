@@ -5,7 +5,7 @@ public class Main {
         transport.move();
         transport.options();
         transport.setSeats(21);
-        int a = transport.getSeats();
+        System.out.println(transport.getSeats());
         Car car = new Car();
         car.move();
         car.options();
